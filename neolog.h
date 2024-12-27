@@ -8,6 +8,8 @@
 
 // TODO Customize the colours for the different log levels (blue for info, green for debug)
 
+#define static nlog_logger_t LOGGER_CONFIG
+
 /**
  * @typedef nlog_LogLevel
  * @brief Level of logging, ERROR < INFO < DEBUG
